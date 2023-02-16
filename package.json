@@ -7,11 +7,13 @@
     "build": "npm run start & rollup -w -c \"rollup_config.js\"",
     "start": "npm run open & serve dist",
     "open": "open http://localhost:3000/",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "deploy": "gh-pages -d dist"
   },
   "author": "fdoganis",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "three": "^0.149.0"
   },
   "devDependencies": {
