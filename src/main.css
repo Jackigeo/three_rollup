@@ -4,3 +4,41 @@ body {
   padding: 0;
   overflow: hidden;
 }
+
+#header {
+
+  height: fit-content;
+  padding: 0px;
+  margin-top: 0px;
+
+}
+
+#guess {
+  top: 0px;
+  position: relative;
+  float: right;
+  text-align: left;
+  max-width: 20%;
+  min-width: 20%
+}
+
+#submit {
+  position: relative;
+  float: right;
+  right: 0px;
+}
+
+
+
+#title {
+  position: relative;
+  float: left;
+  max-width: 30%;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-style: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: azure;
+  font-size: small;
+}
